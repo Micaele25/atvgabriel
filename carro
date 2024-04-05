@@ -5,8 +5,19 @@ public class carro {
     int ano;
     int numero_portas;
 
-	
-	public String descricao() {
+	public carro(){}
+
+	public carro (String marca,String modelo,String cor,int ano,int numero_portas) {
+this.marca = marca;
+this.modelo = modelo;
+this.cor = cor;
+this.ano = ano;
+this.numero_portas = numero_portas;
+
+}
+
+
+public String descricao()
         return "Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano + ", Cor: " + cor + ", Numero_portas: " + numero_portas;
 	}
 }

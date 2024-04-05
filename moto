@@ -1,1 +1,12 @@
-cv
+public class moto {
+	    String marca;
+	    String modelo;
+	    String cor;
+	    int ano;
+	    int cilidradas;
+	    
+	    public String descricao() {
+	        return "Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano + ", Cor: " + cor + ", Cilidradas: " + cilidradas;
+	    }
+
+}

@@ -5,6 +5,17 @@ public class moto {
 	    int ano;
 	    int cilidradas;
 	    
+	public moto(){}
+
+	public moto (String marca,String modelo,String cor,int ano,int cilidradas) {
+this.marca = marca;
+this.modelo = modelo;
+this.cor = cor;
+this.ano = ano;
+this.cilidradas = cilidradas;
+
+}
+
 	    public String descricao() {
 	        return "Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano + ", Cor: " + cor + ", Cilidradas: " + cilidradas;
 	    }

@@ -1,28 +1,12 @@
-public class Principal {
-
-	public static void Main(String[] args) {
-		moto m = new moto("Honda","CBR 500R","Vermelho",2023,4);
-    moto m = new moto("Honda","CBR 500R","Vermelho",2023,4);
-		moto m = new moto("Honda","CBR 500R","Vermelho",2023,4);
-
-		carro c = new carro("Toyotta","Corolla","Preto",2020,4);
-    carro c = new carro("Toyotta","Corolla","Preto",2020,4);
-    carro c = new carro("Toyotta","Corolla","Preto",2020,4);
-		
-		System.out.println("informações das motos");
-    System.out.println(m.descricao());
-		System.out.println(m.descricao());
-		System.out.println(m.descricao());
-
-		System.out.println("informações das carros");
-    System.out.println(c.descricao());
-		System.out.println(c.descricao());
-    System.out.println(c.descricao());
+public class carro {
+	String marca;
+    String modelo;
+    String cor;
+    int ano;
+    int numero_portas;
 
 	
-		
-
-
+	public String descricao() {
+        return "Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano + ", Cor: " + cor + ", Numero_portas: " + numero_portas;
 	}
-
 }
